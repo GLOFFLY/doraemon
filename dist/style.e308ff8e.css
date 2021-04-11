@@ -1,22 +1,25 @@
 *{
-    margin: 0;
-    padding: 0; 
-    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
-body {
-	background: #93B8CA;
-	min-height: 100vh;
+*::before{box-sizing: border-box;}
+
+.doraemon{
+   background: #93B8CA;
+   min-height: 100vh;
 }
 .head{
-   margin: 50px auto;
    position: relative;
    width: 420px;
-	height: 400px;
-	background: #07bbee;
-	border: 3px solid #000;
-	border-radius: 48% 48% 48% 48%;
+   height: 400px;
+   background: #07bbee;
+   border: 3px solid #000;
+   border-radius: 48% 48% 48% 48%;
    background: -webkit-radial-gradient(right top,#fff 10%,#08b8e9 20%,#4b9ef1 75%,#000);
-   /*从右上角添加放射性渐变*/
+   top:20px;
+   left:50%;
+   margin-left:-210px;
 }
 
 .eye{
@@ -216,7 +219,6 @@ body {
    border: 2px solid #000;
 	width: 260px;
 	height: 33px;
-	top: -72px;
 	left: 50%;
    margin-left: -130px;
 	z-index: 1;
